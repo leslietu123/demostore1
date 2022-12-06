@@ -1,5 +1,6 @@
 {
   "homepage": "https://www.graphcommerce.org/",
+  "name": "@graphcommerce/root",
   "repository": "github:graphcommerce-org/graphcommerce",
   "version": "5.0.0",
   "private": true,
@@ -49,7 +50,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "concurrently": "7.6.0",
-    "framer-motion": "7.6.17",
+    "framer-motion": "7.6.19",
     "graphql": "16.6.0",
     "jest-environment-jsdom": "^29.1.2",
     "next": "12.2.5",
