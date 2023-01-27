@@ -24,7 +24,7 @@ export const sxLargeItem = (theme: Theme) => ({
 })
 
 function DemoProductListItemsBase(props: PluginProps<ProductItemsGridProps>) {
-  const { Prev, ...rest } = props
-  return <Prev {...rest} sx={sxLargeItem} />
+  const { Prev, sx = [], ...rest } = props
+  return <Prev {...rest} sx={[sxLargeItem, ...(Array.isArray(sx) ? sx : [sx])]} />
 }
 export const Plugin = DemoProductListItemsBase
