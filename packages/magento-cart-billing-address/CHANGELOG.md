@@ -1,5 +1,13 @@
 # Change Log
 
+## 6.0.0
+
+### Patch Changes
+
+- [#1821](https://github.com/graphcommerce-org/graphcommerce/pull/1821) [`1abc50a21`](https://github.com/graphcommerce-org/graphcommerce/commit/1abc50a21103270fad04e4a9ea892ee1e75233e9) - Fix regression bugs and upgrade packages to latest versions ([@paales](https://github.com/paales))
+
+- [#1805](https://github.com/graphcommerce-org/graphcommerce/pull/1805) [`07e9e1ade`](https://github.com/graphcommerce-org/graphcommerce/commit/07e9e1ade8d1970d86f45ae756b25792b29b9a99) - add missing default value ‘saveInAddressBook’ ([@carlocarels90](https://github.com/carlocarels90))
+
 ## 6.0.0-canary.36
 
 ## 6.0.0-canary.35
